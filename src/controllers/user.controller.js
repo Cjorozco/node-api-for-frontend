@@ -4,3 +4,8 @@ export const getUsers = (req, res) => {
     { id: 2, name: 'Jane Doe' }
   ]);
 };
+
+/* export const getUsers = (req, res) => {
+  throw new Error('Forced error for testing');
+}; */
+
